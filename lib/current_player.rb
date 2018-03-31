@@ -4,7 +4,7 @@ def turn_count(board)
     if movemade = "X" || "O"
     counter += 1
   end
-  return countarray.length
+  return counter
 end
 
 def current_player(board)
