@@ -4,6 +4,7 @@ def turn_count(board)
     if movemade = "X" || "O"
     counter += 1
   end
+  end
   return counter
 end
 
