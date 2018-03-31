@@ -10,5 +10,5 @@ end
 
 def current_player(board)
   turnnumber = turn_count(board)
-  
+  if  
 end
