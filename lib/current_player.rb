@@ -1,7 +1,7 @@
 def turn_count(board)
   countarray = []
   board.each do |movemade|
-    if movemade != " " | "" | nil
+    if movemade = "X" || "O"
     countarray << movemade
   end
   return countarray.length
