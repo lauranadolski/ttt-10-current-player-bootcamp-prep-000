@@ -1,8 +1,8 @@
 def turn_count(board)
-  countarray = []
+  counter = 0
   board.each do |movemade|
     if movemade = "X" || "O"
-    countarray << movemade
+    counter += 1
   end
   return countarray.length
 end
