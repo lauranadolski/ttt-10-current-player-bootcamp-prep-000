@@ -1,4 +1,5 @@
 def turn_count(board)
+  countarray = []
   board.each do |movemade|
     
 end
